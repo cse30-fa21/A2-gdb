@@ -3,7 +3,7 @@
 
 int main(int argc, char **argv){
   int sumIt = 0;
-  char someStr[] = "J. A. R. V. I. S. was written in C\n";
+  char someStr[] = "Redstone is no substitute for good old C!\n";
   int len=strlen(someStr);
   for (int i=0; i< 1000; i++){
     sumIt += someStr[i % len];
